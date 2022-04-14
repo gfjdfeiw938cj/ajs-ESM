@@ -1,0 +1,12 @@
+body {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(136, 66, 66);
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+}

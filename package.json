@@ -1,0 +1,35 @@
+{
+  "name": "ajs-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "preshow:coverage": "npm run coverage",
+    "show:coverage": "live-server coverage/lcov-report",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist",
+    "serve": "http-server src",
+    "start": "live-server src"
+  },
+  "keywords": [
+    "game"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfjdfeiw938cj/ajs-ESM.git"
+  },
+  "author": "Artur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfjdfeiw938cj/ajs-ESM/issues"
+  },
+  "homepage": "https://github.com/gfjdfeiw938cj/ajs-ESM#readme",
+  "devDependencies": {
+    "core-js": "^3.21.1",
+    "live-server": "^1.2.1"
+  }
+}
